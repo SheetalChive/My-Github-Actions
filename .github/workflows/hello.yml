@@ -8,3 +8,8 @@ jobs:
     steps:
       - name: hello to users
         run : echo "hello dosto"
+  details:
+    runs-on: ubuntu-latest
+    steps:
+      - name: version of python
+        run : docker --version && python --version
