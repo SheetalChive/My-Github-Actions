@@ -1,0 +1,6 @@
+name: HEllo Workflow
+jobs: 
+  greet:
+    steps:
+      - name: hello to users
+        run : echo "hello dosto"
