@@ -1,7 +1,7 @@
 name: HEllo Workflow
 on:
   push:
-    branches:[main]
+    branches: [main]
 jobs: 
   greet:
     runs-on: ubuntu-latest
